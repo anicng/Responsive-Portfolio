@@ -262,30 +262,15 @@ article {
     }
 
     nav {
-        background: #f2f2ed;
         position: static;
-        left: 0px;
-        top: 0px;
-        height: 10vh;
-        width: 100%;
-        /* margin-bottom: 50px; */
-        /* font-size: 17px; */
-        /* z-index: 1; */
     }
 
     nav a {
         right: 30vw;
-
     }
 
     .main_section {
-        background: #f2f2ed;
-        position: relative;
-        width: 80%;
-        margin: 0 auto;
         margin-top: 4vh;
-        margin-bottom: 2vh;
-        color: #55b8a2;
     }
 
 }
