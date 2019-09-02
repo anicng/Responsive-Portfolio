@@ -1,0 +1,206 @@
+html {
+    min-height: 100%;
+    /* min-width: 630px; */
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/* header = Name logo, over lap top navigation*/
+header {
+    background: #55b8a2;
+    position: fixed;
+    left: 10vw;
+    top: 0;
+    height: 10vh;
+    /* padding: 10px 0px 0px 0px; */
+    width: 20vw;
+    z-index: 2;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 10vh;
+    overflow: hidden;
+
+}
+
+nav {
+    background: #f2f2ed;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 10vh;
+    width: 100%;
+    /* margin-bottom: 50px; */
+    font-size: 17px;
+    z-index: 1;
+}
+
+nav a {
+    float: right;
+    position: relative;
+    right: 10vw;
+    font-size: 20px;
+    line-height: 6vh;
+    padding: 20px 10px 15px 10px;
+    color: #54544d;
+}
+
+nav a:hover {
+    float: right;
+    position: relative;
+    right: 10vw;
+    font-size: 20px;
+    line-height: 6vh;
+    padding: 20px 10px 15px 10px;
+    color: #55b8a2;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+footer {
+    background: #54544d;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 10px;
+    color: #ffffff;
+    width: 100%;
+    height: 5vh;
+    border-top: 5px solid #55b8a2;
+    text-align: center;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 5px;
+}
+
+/* Contact Page */
+
+#contact_section {
+    background: #f2f2ed;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 12vh;
+    margin-bottom: 2vh;
+    color: #55b8a2;
+}
+
+.section_title {
+    padding: 30px 20px 0px 30px;
+    font-size: 3vh;
+    color: #55b8a2;
+    /* font-weight: bold; */
+    font-family: 'Martel', serif;
+    letter-spacing: 0.05em;
+}
+
+form {
+    background: f2f2ed;
+    padding: 10px 30px 10px 25px;
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    color: #54544d;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 0px;
+    margin: 8px 0;
+}
+
+#message_input {
+    width: 100%;
+    padding: 70px 0px;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #55b8a2;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    left: 1px;
+}
+
+button:hover {
+    background-color: #4ca18f;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    left: 1px;
+}
+
+/* Portfolio Page */
+#image_grid {
+    margin: 0 auto;
+    position: relative;
+    left:3vw; 
+}
+
+.portfolio_section {
+    background: #f2f2ed;
+    position: relative;
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 12vh;
+    margin-bottom: 2vh;
+    color: #55b8a2;
+}
+
+.portfolio_img {
+    margin: 20px;
+    width: 40%;
+}
+
+/* About Page (index.html) */
+
+#about_section {
+    background: #f2f2ed;
+    position: relative;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 12vh;
+    margin-bottom: 2vh;
+    color: #55b8a2;
+}
+.about_article {
+    line-height: 3vh;
+    color: #000;
+}
+
+/* 
+p {
+    color: #000000;
+} */
+
+#aboutpic {
+    float: left;
+}
+
+article {
+    padding: 10px;
+    margin-right: 5px;
+}
+
+img {
+    margin: 20px;
+}
