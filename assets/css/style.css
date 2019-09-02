@@ -67,6 +67,16 @@ nav a:link {
     text-decoration: none;
 }
 
+.main_section {
+    background: #f2f2ed;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 12vh;
+    margin-bottom: 2vh;
+    color: #55b8a2;
+}
+
 footer {
     background: #54544d;
     position: relative;
@@ -89,15 +99,7 @@ footer {
 
 /* Contact Page */
 
-.main_section {
-    background: #f2f2ed;
-    position: relative;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 12vh;
-    margin-bottom: 2vh;
-    color: #55b8a2;
-}
+
 
 .section_title {
     padding: 30px 20px 0px 30px;
@@ -156,7 +158,7 @@ button:hover {
     left:3vw; 
 }
 
-.portfolio_section {
+/* .portfolio_section {
     background: #f2f2ed;
     position: relative;
     width: 80vw;
@@ -164,7 +166,7 @@ button:hover {
     margin-top: 12vh;
     margin-bottom: 2vh;
     color: #55b8a2;
-}
+} */
 
 .portfolio_img {
     margin: 20px;
