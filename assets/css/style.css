@@ -242,3 +242,50 @@ article {
     }
     
 }
+
+@media only screen and (max-width: 640px) {
+
+    header {
+        background: #55b8a2;
+        position: static;
+        top: 0;
+        height: 10vh;
+        /* padding: 10px 0px 0px 0px; */
+        width: 100%;
+        z-index: 2;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+        line-height: 10vh;
+        overflow: hidden;
+    
+    }
+
+    nav {
+        background: #f2f2ed;
+        position: static;
+        left: 0px;
+        top: 0px;
+        height: 10vh;
+        width: 100%;
+        /* margin-bottom: 50px; */
+        /* font-size: 17px; */
+        /* z-index: 1; */
+    }
+
+    nav a {
+        right: 30vw;
+
+    }
+
+    .main_section {
+        background: #f2f2ed;
+        position: relative;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+        color: #55b8a2;
+    }
+
+}
