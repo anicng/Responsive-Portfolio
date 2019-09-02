@@ -89,7 +89,7 @@ footer {
 
 /* Contact Page */
 
-#contact_section {
+.main_section {
     background: #f2f2ed;
     position: relative;
     width: 80%;
@@ -173,7 +173,7 @@ button:hover {
 
 /* About Page (index.html) */
 
-#about_section {
+/* #about_section {
     background: #f2f2ed;
     position: relative;
     width: 80%;
@@ -182,7 +182,7 @@ button:hover {
     margin-top: 12vh;
     margin-bottom: 2vh;
     color: #55b8a2;
-}
+} */
 .about_article {
     line-height: 3vh;
     color: #000;
