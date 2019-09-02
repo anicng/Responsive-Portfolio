@@ -219,18 +219,26 @@ article {
 
 
 /* media query to make content fit different size viewport */
-/* viewport size 980px and up  */
-@media only screen and (max-width: 980px) {
+/* viewport size upto 768px  */
 
-}
-/* viewport size 768px and up  */
-
-@media only screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) {
     .main_section {
         max-width: 768px;
     }
-}
-/* viewport size 640px and up  */
-@media only screen and (max-width: 640px) {
 
+    .img_row {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2vh;
+    }
+
+    .img_column {
+        /* float: left; */
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 1vh;
+    }
+    
 }
