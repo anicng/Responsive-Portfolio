@@ -152,12 +152,43 @@ button:hover {
 #image_grid {
     margin: 0 auto;
     position: relative;
-    left:3vw; 
+    /* left:3vw;  */
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: red; */
 }
 
+/* allows imgage columns to center  */
+.img_row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_column {
+    /* float: left; */
+    padding: 1vh;
+    display:inline-block;
+    width: 45%;
+    /* margin: 0; */
+    /* border-style: solid;
+    border-color: blue;
+    border-width: 1px; */
+}
+
+/* .img_row::after {
+    content: " ";
+    display: block;
+    clear: both;
+  } */
+
 .portfolio_img {
-    margin: 20px;
-    width: 40%;
+    /* float: left; */
+    /* margin: 0 auto; */
+    width: 100%;
+    /* display: block; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
 }
 
 /* About Page (index.html) */
@@ -174,6 +205,7 @@ p {
 
 #aboutpic {
     float: left;
+    margin: 20px;
 }
 
 article {
@@ -181,9 +213,9 @@ article {
     margin-right: 5px;
 }
 
-img {
+/* img {
     margin: 20px;
-}
+} */
 
 
 /* media query to make content fit different size viewport */
