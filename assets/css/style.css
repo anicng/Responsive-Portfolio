@@ -77,6 +77,15 @@ nav a:link {
     color: #55b8a2;
 }
 
+.section_title {
+    padding: 30px 20px 0px 30px;
+    font-size: 3vh;
+    color: #55b8a2;
+    /* font-weight: bold; */
+    font-family: 'Martel', serif;
+    letter-spacing: 0.05em;
+}
+
 footer {
     background: #54544d;
     position: relative;
@@ -98,18 +107,6 @@ footer {
 }
 
 /* Contact Page */
-
-
-
-.section_title {
-    padding: 30px 20px 0px 30px;
-    font-size: 3vh;
-    color: #55b8a2;
-    /* font-weight: bold; */
-    font-family: 'Martel', serif;
-    letter-spacing: 0.05em;
-}
-
 form {
     background: f2f2ed;
     padding: 10px 30px 10px 25px;
@@ -158,16 +155,6 @@ button:hover {
     left:3vw; 
 }
 
-/* .portfolio_section {
-    background: #f2f2ed;
-    position: relative;
-    width: 80vw;
-    margin: 0 auto;
-    margin-top: 12vh;
-    margin-bottom: 2vh;
-    color: #55b8a2;
-} */
-
 .portfolio_img {
     margin: 20px;
     width: 40%;
@@ -175,16 +162,6 @@ button:hover {
 
 /* About Page (index.html) */
 
-/* #about_section {
-    background: #f2f2ed;
-    position: relative;
-    width: 80%;
-    height: auto;
-    margin: 0 auto;
-    margin-top: 12vh;
-    margin-bottom: 2vh;
-    color: #55b8a2;
-} */
 .about_article {
     line-height: 3vh;
     color: #000;
@@ -217,7 +194,9 @@ img {
 /* viewport size 768px and up  */
 
 @media only screen and (max-width: 769px) {
-    
+    .main_section {
+        max-width: 768px;
+    }
 }
 /* viewport size 640px and up  */
 @media only screen and (max-width: 640px) {
